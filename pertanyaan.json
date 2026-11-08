@@ -1,0 +1,132 @@
+{
+  "EDM": [
+    [
+      "EDM01",
+      "Apakah terdapat pengaturan yang menjelaskan tanggung jawab dan kewenangan dalam pengelolaan teknologi informasi?"
+    ],
+    [
+      "EDM02",
+      "Apakah manfaat penggunaan sistem informasi dievaluasi berdasarkan kebutuhan dan tujuan perusahaan?"
+    ],
+    [
+      "EDM03",
+      "Apakah risiko penggunaan teknologi informasi diidentifikasi dan dipantau?"
+    ],
+    [
+      "EDM04",
+      "Apakah sumber daya teknologi informasi dikelola sesuai kebutuhan perusahaan?"
+    ],
+    [
+      "EDM05",
+      "Apakah informasi mengenai kinerja dan kendala sistem dilaporkan kepada pihak terkait?"
+    ],
+    [
+      "EDM01",
+      "Apakah evaluasi terhadap tata kelola teknologi informasi dilakukan secara berkala?"
+    ]
+  ],
+  "APO": [
+    [
+      "APO01",
+      "Apakah perusahaan memiliki kebijakan atau prosedur pengelolaan sistem informasi?"
+    ],
+    [
+      "APO02",
+      "Apakah perencanaan teknologi informasi disusun sesuai kebutuhan operasional perusahaan?"
+    ],
+    [
+      "APO03",
+      "Apakah perencanaan sistem informasi memperhatikan kebutuhan pertukaran data antarbagian?"
+    ],
+    [
+      "APO10",
+      "Apakah penyedia layanan teknologi informasi dievaluasi berdasarkan kebutuhan dan risiko?"
+    ],
+    [
+      "APO12",
+      "Apakah risiko teknologi informasi, seperti kehilangan data dan akses tidak sah, diidentifikasi serta ditangani?"
+    ],
+    [
+      "APO07",
+      "Apakah tanggung jawab pengguna sistem ditetapkan dengan jelas?"
+    ]
+  ],
+  "BAI": [
+    [
+      "BAI01",
+      "Apakah penerapan atau pengembangan sistem informasi dilakukan berdasarkan rencana yang telah ditetapkan?"
+    ],
+    [
+      "BAI02",
+      "Apakah kebutuhan pengguna didokumentasikan sebelum sistem dibuat atau diperbarui?"
+    ],
+    [
+      "BAI03",
+      "Apakah sistem yang digunakan telah dievaluasi kesesuaiannya dengan kebutuhan perusahaan?"
+    ],
+    [
+      "BAI06",
+      "Apakah perubahan sistem dicatat dan disetujui oleh pihak yang berwenang?"
+    ],
+    [
+      "BAI07",
+      "Apakah pengujian dilakukan sebelum sistem atau perubahan sistem digunakan dalam operasional?"
+    ],
+    [
+      "BAI08",
+      "Apakah dokumentasi penggunaan sistem tersedia bagi pihak yang membutuhkan?"
+    ]
+  ],
+  "DSS": [
+    [
+      "DSS01",
+      "Apakah operasional sistem informasi dipantau untuk memastikan layanan berjalan sesuai kebutuhan?"
+    ],
+    [
+      "DSS02",
+      "Apakah terdapat prosedur untuk mencatat dan menangani gangguan atau keluhan pengguna?"
+    ],
+    [
+      "DSS03",
+      "Apakah masalah sistem yang berulang dianalisis untuk mengetahui penyebabnya?"
+    ],
+    [
+      "DSS04",
+      "Apakah pencadangan data dilakukan secara berkala?"
+    ],
+    [
+      "DSS05",
+      "Apakah hak akses pengguna diatur berdasarkan tugas dan tanggung jawabnya?"
+    ],
+    [
+      "DSS06",
+      "Apakah pengendalian proses bisnis yang menggunakan sistem informasi dilakukan untuk menjaga keakuratan data?"
+    ]
+  ],
+  "MEA": [
+    [
+      "MEA01",
+      "Apakah kinerja sistem informasi dipantau secara berkala?"
+    ],
+    [
+      "MEA01",
+      "Apakah hasil pemantauan sistem dicatat dan dilaporkan kepada pihak terkait?"
+    ],
+    [
+      "MEA02",
+      "Apakah pengendalian internal terhadap sistem informasi dievaluasi secara berkala?"
+    ],
+    [
+      "MEA02",
+      "Apakah kelemahan pengendalian yang ditemukan dicatat dan dianalisis?"
+    ],
+    [
+      "MEA03",
+      "Apakah penggunaan sistem informasi diperiksa kesesuaiannya dengan kebijakan dan ketentuan yang berlaku?"
+    ],
+    [
+      "MEA01",
+      "Apakah tindak lanjut atas hasil evaluasi dan rekomendasi audit dipantau?"
+    ]
+  ]
+}
