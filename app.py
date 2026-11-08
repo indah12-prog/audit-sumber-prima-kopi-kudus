@@ -12,6 +12,96 @@ st.set_page_config(
     layout="wide"
 )
 
+# Desain tampilan aplikasi
+st.markdown("""
+<style>
+/* Latar halaman */
+.stApp {
+    background-color: #FAF7F2;
+}
+
+/* Lebar dan jarak isi */
+.block-container {
+    max-width: 1150px;
+    padding-top: 2rem;
+    padding-bottom: 3rem;
+}
+
+/* Warna judul */
+h1, h2, h3 {
+    color: #4B3025;
+}
+
+/* Kotak formulir */
+[data-testid="stForm"] {
+    background-color: #FFFFFF;
+    border: 1px solid #E6D9CB;
+    border-radius: 18px;
+    padding: 24px;
+}
+
+/* Tombol proses */
+button[kind="primary"] {
+    background-color: #654332;
+    color: white;
+    border: none;
+    border-radius: 10px;
+}
+
+button[kind="primary"]:hover {
+    background-color: #4B3025;
+    color: white;
+}
+
+/* Tab domain */
+button[data-baseweb="tab"] {
+    font-weight: 600;
+    padding-left: 18px;
+    padding-right: 18px;
+}
+
+button[data-baseweb="tab"][aria-selected="true"] {
+    color: #654332;
+}
+
+[data-baseweb="tab-highlight"] {
+    background-color: #654332;
+}
+
+/* Kotak indikator hasil */
+[data-testid="stMetric"] {
+    background-color: #EFE7DB;
+    border-radius: 14px;
+    padding: 18px;
+}
+
+/* Banner judul */
+.audit-banner {
+    background: linear-gradient(120deg, #3E2920, #79543D);
+    padding: 32px;
+    border-radius: 20px;
+    margin-bottom: 24px;
+}
+
+.audit-banner .label {
+    color: #E7CCAA;
+    font-size: 13px;
+    letter-spacing: 2px;
+}
+
+.audit-banner h1 {
+    color: white;
+    font-size: 34px;
+    margin: 10px 0;
+}
+
+.audit-banner p {
+    color: #F2E7D8;
+    margin-bottom: 0;
+}
+</style>
+""", unsafe_allow_html=True)
+
 pertanyaan = json.loads(
     (Path(__file__).parent / "pertanyaan.json").read_text(
         encoding="utf-8"
@@ -20,11 +110,20 @@ pertanyaan = json.loads(
 
 pilihan = ["Belum dijawab", "Ya", "Tidak", "N/A"]
 
-st.title("☕ Form Audit Sistem Informasi")
-st.subheader("PT Sumber Kopi Prima")
-st.caption(
-    "COBIT 5 | Indah Chusnul Febriani | 202453126 | Kelas D"
-)
+st.markdown("""
+<div class="audit-banner">
+    <div class="label">INSTRUMEN AUDIT · COBIT 5</div>
+    <h1>☕ Audit Sistem Informasi</h1>
+    <p>PT Sumber Kopi Prima</p>
+    <p>Indah Chusnul Febriani · 202453126 · Kelas D</p>
+</div>
+""", unsafe_allow_html=True)
+
+kolom1, kolom2, kolom3 = st.columns(3)
+
+kolom1.metric("Pertanyaan", "30")
+kolom2.metric("Domain COBIT 5", "5")
+kolom3.metric("Tahapan", "Isi → Proses → Unduh")
 
 st.info(
     "Isi jawaban berdasarkan pemeriksaan. "
