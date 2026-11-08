@@ -123,7 +123,9 @@ kolom1, kolom2, kolom3 = st.columns(3)
 
 kolom1.metric("Pertanyaan", "30")
 kolom2.metric("Domain COBIT 5", "5")
-kolom3.metric("Tahapan", "Isi → Proses → Unduh")
+with kolom3:
+    st.metric("Langkah Pengisian", "3")
+    st.caption("Isi → Proses → Unduh")
 
 st.info(
     "Isi jawaban berdasarkan pemeriksaan. "
